@@ -44,7 +44,7 @@ ul,ol{
     padding-bottom: 24px;
 }
 
-.logo{
+.header-navigation-logo{
     margin-right: 76px;
 }
 .header-logo {
@@ -75,6 +75,7 @@ color: #2E2F42;
 .header-container{
     justify-content: space-between;
     display: flex;
+    border-bottom: 1px solid  #E7E9FC;
     
 }
 
