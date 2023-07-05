@@ -9,6 +9,15 @@ body{
     background-color: #ffffff;
 }
 
+.container{
+width: 100%;
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+
+}
+
 .link {
     text-decoration: none;
 }
@@ -16,8 +25,25 @@ body{
     list-style-type: none
 }
 
+p,h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,ol{
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 
 /*------HEADER-------------*/
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 
 .header-logo {
         font-family: Raleway, sans-serif; 
@@ -31,6 +57,27 @@ body{
 
 .header-title-accent{
 color: #2E2F42;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-navigation{
+    display: flex;
+    gap: 76px;
+    
+        
+}
+.header-container{
+    justify-content: space-between;
+    display: flex;
+    
+}
+.header-contacs{
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .header-list-link{
@@ -50,6 +97,7 @@ letter-spacing: 0.02em;
 
 .header-address{
 font-style: normal;
+gap: 332px;
 }
 
 .header-contacs-link{
