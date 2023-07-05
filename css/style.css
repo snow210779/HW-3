@@ -44,7 +44,9 @@ ul,ol{
     padding-bottom: 24px;
 }
 
-
+.logo{
+    margin-right: 76px;
+}
 .header-logo {
         font-family: Raleway, sans-serif; 
         color: #4D5AE5;
@@ -53,6 +55,7 @@ ul,ol{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+       
 }
 
 .header-title-accent{
@@ -61,12 +64,12 @@ color: #2E2F42;
 .header-list{
     display: flex;
     align-items: center;
-    gap: 40px;
+    
 }
 .header-navigation{
     display: flex;
-    gap: 76px;
-    
+    align-items: center;
+   
         
 }
 .header-container{
@@ -74,10 +77,12 @@ color: #2E2F42;
     display: flex;
     
 }
-.header-contacs{
-    display: flex;
-    align-items: center;
+
+.header-list{
     gap: 40px;
+}
+.header-list-item{
+    padding: 24px 0;
 }
 
 .header-list-link{
@@ -97,7 +102,13 @@ letter-spacing: 0.02em;
 
 .header-address{
 font-style: normal;
-gap: 332px;
+
+}
+.header-contacs {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    
 }
 
 .header-contacs-link{
