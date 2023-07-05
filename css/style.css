@@ -45,9 +45,9 @@ ul,ol{
     border-bottom: 1px solid #E7E9FC;
 }
 
-.header-navigation-logo{
-    margin-right: 76px;
-}
+
+    
+
 .header-logo {
         font-family: Raleway, sans-serif; 
         color: #4D5AE5;
@@ -70,21 +70,17 @@ color: #2E2F42;
 .header-navigation{
     display: flex;
     align-items: center;
+    margin-right: 76px;
    
         
 }
 .header-container{
     justify-content: space-between;
     display: flex;
-    
-    
 }
 
 .header-list{
     gap: 40px;
-}
-.header-list-item{
-    padding: 24px 0;
 }
 
 .header-list-link{
@@ -94,7 +90,9 @@ font-family: Roboto;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 24px 0;
 }
+
 .header-list-link:hover{
     color: #404bbf
 }
