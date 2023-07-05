@@ -42,6 +42,7 @@ ul,ol{
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-navigation-logo{
@@ -75,7 +76,7 @@ color: #2E2F42;
 .header-container{
     justify-content: space-between;
     display: flex;
-    border-bottom: 1px solid  #E7E9FC;
+    
     
 }
 
