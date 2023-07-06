@@ -122,6 +122,16 @@ color:#404bbf;
 /*-----MAIN-FIRST------------*/
 .main-first{
 background-color:  #2E2F42;
+height: 600px;
+flex-shrink: 0;
+}
+.first-title{
+        display: flex;
+        width: 496px;
+        flex-direction: column;
+        flex-shrink: 0;
+    
+
 }
 
 .main-first-title{
@@ -132,6 +142,7 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+
 }
 
 .main-first-btn{
