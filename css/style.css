@@ -45,9 +45,6 @@ ul,ol{
     border-bottom: 1px solid #E7E9FC;
 }
 
-
-    
-
 .header-logo {
         font-family: Raleway, sans-serif; 
         color: #4D5AE5;
@@ -56,11 +53,11 @@ ul,ol{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-     margin-right: 76px;
+        margin-right: 76px;
 }
 
 .header-title-accent{
-color: #2E2F42;
+     color: #2E2F42;
 }
 .header-list{
     display: flex;
