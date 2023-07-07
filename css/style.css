@@ -168,13 +168,16 @@ border-radius: 4px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.link-title{
+flex-basis: calc((100%-3*24px)/4);
+
+}
 .main-second-title{
         color:  #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        flex-basis: calc((100%-3*24px)/4);
         margin-bottom: 8px;
 }
 .not-visible{
