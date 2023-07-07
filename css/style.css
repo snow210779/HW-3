@@ -200,6 +200,7 @@ flex-basis: calc((100%-3*24px)/4);
 
 .main-third{
     background-color: #FFF;
+    margin-bottom: 120px;
 }
 
 .main-third-title{
@@ -210,6 +211,11 @@ flex-basis: calc((100%-3*24px)/4);
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
+}
+.list{
+    display: flex;
+    gap: 24px;
 }
 
 .main-third-computer{
