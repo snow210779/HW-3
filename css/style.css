@@ -172,20 +172,30 @@ border-radius: 4px;
         letter-spacing: 0.02em;
 }
 .second-container{
-    display: flex;
+    
     padding: 120px 0;
+   
 }
 .not-visible{
     visibility:hidden ;
 }
+.link{
+    display: flex;
+    gap: 24px;
+}
 
+.main-second-title{
+    flex-basis: calc((100%-3*24px)/4);
+    margin-bottom: 8px;
+
+}
 .main-second-item{
-
         color:  var(---accent-color);
         font-size: 16px;
         font-family: Roboto;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        flex-basis: calc((100%-3*72px)/4);
 }
 
 /*-----MAIN-THIRD------------*/
