@@ -153,8 +153,10 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 display: block;
-max-width: 169px;
+min-width: 169px;
 height: 56px;
+border: none;
+border-radius: 4px;
 }
 
 .main-first-btn:hover{
