@@ -130,8 +130,7 @@ flex-shrink: 0;
         width: 496px;
         flex-direction: column;
         flex-shrink: 0;
-    
-
+        padding-top:  188px ;
 }
 
 .main-first-title{
