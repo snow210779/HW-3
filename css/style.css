@@ -170,11 +170,11 @@ border-radius: 4px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        flex-basis: calc((100%-3*24px)/4);
+        margin-bottom: 8px;
 }
 .second-container{
-    
-    padding: 120px 0;
-   
+    padding: 120px 0px;
 }
 .not-visible{
     visibility:hidden ;
@@ -182,12 +182,6 @@ border-radius: 4px;
 .link{
     display: flex;
     gap: 24px;
-}
-
-.main-second-title{
-    flex-basis: calc((100%-3*24px)/4);
-    margin-bottom: 8px;
-
 }
 .main-second-item{
         color:  var(---accent-color);
