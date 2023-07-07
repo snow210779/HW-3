@@ -75,6 +75,9 @@ ul,ol{
     justify-content: space-between;
     display: flex;
 }
+.header-list-item{
+    gap: 40px;
+}
 
 .header-list-link{
 color:  #2E2F42;
@@ -97,14 +100,14 @@ padding: 24px 0;
 font-style: normal;
 
 }
-.header-contacs {
+.header-contacs-item {
     display: flex;
     gap: 40px;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-contacs-link{
-
 color:  var(---accent-color);
 font-style: normal;
 font-size: 16px;
