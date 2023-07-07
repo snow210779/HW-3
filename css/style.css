@@ -171,6 +171,13 @@ border-radius: 4px;
         line-height: 1.2;
         letter-spacing: 0.02em;
 }
+.second-container{
+    display: flex;
+    padding: 120px 0;
+}
+.not-visible{
+    visibility:hidden ;
+}
 
 .main-second-item{
 
