@@ -125,15 +125,14 @@ background-color:  #2E2F42;
 height: 600px;
 flex-shrink: 0;
 }
-.first-title{
-        display: flex;
-        width: 496px;
-        flex-direction: column;
-        flex-shrink: 0;
-        padding-top:  188px ;
+.container-first{
+padding: 188px 0;
+
 }
 
+
 .main-first-title{
+max-width: 496px;
 font-family: "Roboto", sans-serif;
 color:  #FFF;
 text-align: center;
@@ -153,6 +152,9 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
+display: block;
+max-width: 169px;
+height: 56px;
 }
 
 .main-first-btn:hover{
