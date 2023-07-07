@@ -164,6 +164,10 @@ border-radius: 4px;
 
 /*-----MAIN-SECOND------------*/
 
+.second-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .main-second-title{
         color:  #2E2F42;
         font-size: 20px;
@@ -172,9 +176,6 @@ border-radius: 4px;
         letter-spacing: 0.02em;
         flex-basis: calc((100%-3*24px)/4);
         margin-bottom: 8px;
-}
-.second-container{
-    padding: 120px 0px;
 }
 .not-visible{
     visibility:hidden ;
