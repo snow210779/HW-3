@@ -249,14 +249,15 @@ padding: 120px 0;
 .main-fourth-list{
      display: flex;
      gap: 24px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .fourth-img{
     background-color: #FFFFFF;
-
+    border-radius: 0px 0px 4px 4px;
 }
-
+.fourth-name-profession{
+    padding: 32px 16px;
+}
 .fourth-subtitle{
 
         color:  #2E2F42;
@@ -265,6 +266,8 @@ padding: 120px 0;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 8px;
 }
 .fourth-profession{
     color: #434455;
@@ -272,6 +275,7 @@ padding: 120px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /*-----FOOTER------------*/
