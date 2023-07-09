@@ -452,6 +452,10 @@ padding-bottom: 120px;
     column-gap: 24px;
     row-gap: 48px;
 }
+.img-link{
+width: calc((100% - 48px) / 3);
+}
+
 
 .img-title{
     color:  #2E2F42;
