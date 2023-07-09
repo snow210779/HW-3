@@ -36,6 +36,9 @@ ul,ol{
     margin-bottom: 0;
     padding-left: 0;
 }
+img{
+    display: block;
+}
 
 
 /*------HEADER-------------*/
@@ -443,6 +446,13 @@ padding-bottom: 120px;
 
 
 /*-----PORTFOLIO IMG------------*/
+.img-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
 .img-title{
     color:  #2E2F42;
     font-size: 20px;
