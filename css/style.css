@@ -307,6 +307,7 @@ background-color: #F4F4FD;
 
 .header-menu {
     display: flex;
+    gap: 40px;
     
 }
 .nav-logo{
@@ -319,8 +320,6 @@ background-color: #F4F4FD;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    gap: 40px;
-    padding: 24px 0;
 }
 
 .nav-logo-accent{
@@ -336,6 +335,7 @@ background-color: #F4F4FD;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 
 .nav-logo-title:hover{
