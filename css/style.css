@@ -69,7 +69,7 @@ ul,ol{
     display: flex;
 }
 .header-list-item{
-    gap: 40px;
+    
 }
 
 
@@ -81,6 +81,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 24px 0;
+gap: 40px;
 
 }
 
@@ -97,9 +98,10 @@ font-style: normal;
 }
 .header-contacs-item {
     display: flex;
-    gap: 40px;
     
+
 }
+
 
 .header-contacs-link{
 color:  var(---accent-color);
@@ -107,6 +109,7 @@ font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+gap: 40px;
 }
 
 .header-contacs-link:hover{
