@@ -288,7 +288,25 @@ background-color: #F4F4FD;
 
 
 /*-----PORTFOLIO HEADER------------*/
+.head{
+    border-bottom: 1px solid  #E7E9FC;
+    padding: 24px 0;
+}
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
 
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
 .nav-logo{
     font-family: Raleway, sans-serif;
     color:  #4d5ae5;
@@ -298,6 +316,7 @@ background-color: #F4F4FD;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .nav-logo-accent{
@@ -322,19 +341,10 @@ background-color: #F4F4FD;
     color: #404bbf
 }
 
-.head-container{
-    display: flex;
-    justify-content: space-between;
-}
-.header-nav{
-    display: flex;
-}
 
-.header-menu{
-    display: flex;
+.socials-contacts-item{
     gap: 40px;
 }
-
 .socials-contacts-link{
         color: var(---accent-color);
         font-size: 16px;
