@@ -46,7 +46,6 @@ ul,ol{
     display: flex;
     align-items: center;
 }
-
 .header-logo {
         font-family: Raleway, sans-serif; 
         color: #4D5AE5;
@@ -57,24 +56,18 @@ ul,ol{
         text-transform: uppercase;
         margin-right: 76px;
 }
-
 .header-title-accent{
      color: #2E2F42;
 }
-
-
-
 .header-container{
     justify-content: space-between;
     display: flex;
 }
-.header-list-item{
+.header-list{
     display: flex;
     align-items: center;
     gap: 40px;
 }
-
-
 .header-list-link{
 color:  #2E2F42;
 display: block;
@@ -84,27 +77,20 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 24px 0;
-
-
 }
-
 .header-list-link:hover{
     color: #404bbf
 }
 .header-list-link:focus{
     color: #404bbf
 }
-
 .header-address{
 font-style: normal;
-
 }
-.header-contacs-item {
+.header-contacs {
     display: flex;
     align-items: center;
     gap: 40px;
-    
-
 }
 
 
@@ -114,7 +100,6 @@ font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-
 }
 
 .header-contacs-link:hover{
