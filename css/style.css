@@ -43,6 +43,20 @@ ul,ol{
     border-bottom: 1px solid #E7E9FC;
     
 }
+.header-container {
+    justify-content: space-between;
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-navigation {
+    display: flex;
+
+}
 
 
 
@@ -54,23 +68,12 @@ ul,ol{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        
+        margin-right: 76px;
 }
 .header-title-accent{
      color: #2E2F42;
 }
-.header-container{
-    justify-content: space-between;
-    display: flex;
-    
-}
-.header-list{
-    display: flex;
-}
-.header-navigation{
-    display: flex;
-    gap: 40px;
-}
+
 
 .header-list-link{
 color:  #2E2F42;
