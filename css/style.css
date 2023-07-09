@@ -395,6 +395,32 @@ color: #404BBF;
 
 /*-----PORTFOLIO BUTTON------------*/
 
+.portfolio-menu{
+padding-top: 96px;
+padding-bottom: 120px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.button-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+.button-link{
+    padding: 12px 24px;
+}
+
 .button-item{
     color: #4d5ae5;
     text-align: center;
