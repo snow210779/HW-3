@@ -216,10 +216,9 @@ flex-basis: calc((100%-3*24px)/4);
 .main-third-img{
     display: flex;
     gap: 24px;
+    padding-bottom: 120px;
 }
-.third-img-list{
-padding-bottom: 120px;
-}
+
 .main-third-computer{
     border: 1px solid var(--cornflower, #E7E9FC);
     background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
