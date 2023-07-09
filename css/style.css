@@ -301,6 +301,7 @@ background-color: #F4F4FD;
 
 .header-nav {
     display: flex;
+    align-items: center;
    
 }
 
