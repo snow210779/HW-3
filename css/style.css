@@ -281,6 +281,7 @@ padding: 120px 0;
 /*-----FOOTER------------*/
 .footer{
     background-color:  #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-title{
@@ -291,12 +292,15 @@ padding: 120px 0;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 .footer-title-accent{
         color:  #F4F4FD;
 }
 .footer-description{
-    color:  #F4F4FD;
+        min-width: 264px;
+        color:  #F4F4FD;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
