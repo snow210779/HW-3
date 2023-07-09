@@ -218,7 +218,7 @@ flex-basis: calc((100%-3*24px)/4);
     gap: 24px;
 }
 .third-img-list{
-margin-bottom: 120px;
+padding-bottom: 120px;
 }
 .main-third-computer{
     border: 1px solid var(--cornflower, #E7E9FC);
