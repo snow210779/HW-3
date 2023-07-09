@@ -201,6 +201,7 @@ flex-basis: calc((100%-3*24px)/4);
 /*-----MAIN-THIRD------------*/
 .main-third{
     background-color: #FFF;
+    padding-bottom: 120px;
     
 }
 .main-third-title{
@@ -216,7 +217,7 @@ flex-basis: calc((100%-3*24px)/4);
 .main-third-img{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
+    
 }
 
 .main-third-computer{
