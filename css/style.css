@@ -232,6 +232,7 @@ flex-basis: calc((100%-3*24px)/4);
 
 .main-fourth{
 background-color: #F4F4FD;
+padding-bottom: 120px;
 }
         
 
@@ -243,6 +244,13 @@ background-color: #F4F4FD;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
+}
+.main-fourth-list{
+     display: flex;
+     gap: 24px;
+
+
 }
 
 .fourth-img{
