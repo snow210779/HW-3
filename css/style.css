@@ -41,9 +41,9 @@ ul,ol{
 /*------HEADER-------------*/
 .header{
     border-bottom: 1px solid #E7E9FC;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
+
 
 
 .header-logo {
@@ -60,7 +60,10 @@ ul,ol{
      color: #2E2F42;
 }
 .header-container{
+    justify-content: space-between;
     display: flex;
+    padding-top: 24px;
+     padding-bottom: 24px;
 }
 .header-list{
     display: flex;
@@ -317,6 +320,19 @@ background-color: #F4F4FD;
 }
 .nav-logo-title:focus{
     color: #404bbf
+}
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav{
+    display: flex;
+}
+
+.header-menu{
+    display: flex;
+    gap: 40px;
 }
 
 .socials-contacts-link{
