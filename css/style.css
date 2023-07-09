@@ -42,6 +42,10 @@ ul,ol{
 .header{
     border-bottom: 1px solid #E7E9FC;
 }
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
 
 .header-logo {
         font-family: Raleway, sans-serif; 
@@ -51,7 +55,7 @@ ul,ol{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        
+        margin-right: 76px;
 }
 
 .header-title-accent{
@@ -64,6 +68,9 @@ ul,ol{
     justify-content: space-between;
     display: flex;
 }
+.header-list-item{
+    gap: 40px;
+}
 
 
 .header-list-link{
@@ -73,6 +80,7 @@ font-family: Roboto;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 24px 0;
 
 }
 
@@ -90,8 +98,7 @@ font-style: normal;
 .header-contacs-item {
     display: flex;
     gap: 40px;
-    align-items: center;
-    padding: 24px 0;
+    
 }
 
 .header-contacs-link{
