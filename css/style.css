@@ -192,10 +192,9 @@ flex-basis: calc((100%-3*24px)/4);
 }
 
 /*-----MAIN-THIRD------------*/
-
 .main-third{
     background-color: #FFF;
-    margin-bottom: 120px;
+   
 }
 .main-third-title{
         color:  #2E2F42;
@@ -210,6 +209,7 @@ flex-basis: calc((100%-3*24px)/4);
 .list{
     display: flex;
     gap: 24px;
+    margin-bottom: 120px;
 }
 .main-third-computer{
     border: 1px solid var(--cornflower, #E7E9FC);
