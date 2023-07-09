@@ -369,6 +369,7 @@ padding: 120px 0;
 
 
 .socials-contacts{
+    display: flex;
     gap: 40px;
 }
 .socials-contacts-link{
