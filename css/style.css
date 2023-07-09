@@ -64,7 +64,6 @@ ul,ol{
     display: flex;
 }
 .header-list{
-   
     gap: 40px;
 }
 .header-list-link{
@@ -87,7 +86,7 @@ padding: 24px 0;
 font-style: normal;
 }
 .header-contacs {
-    gap: 40px;
+ 
 }
 
 
@@ -167,8 +166,17 @@ flex-basis: calc((100%-3*24px)/4);
         letter-spacing: 0.02em;
         margin-bottom: 8px;
 }
-.not-visible{
-    visibility:hidden ;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .link{
     display: flex;
