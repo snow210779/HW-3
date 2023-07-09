@@ -52,17 +52,11 @@ ul,ol{
     display: flex;
     gap: 40px;
 }
-
-
-
 .header-navigation {
     display: flex;
     align-items: center;
 
 }
-
-
-
 .header-logo {
         font-family: Raleway, sans-serif; 
         color: #4D5AE5;
@@ -207,6 +201,7 @@ flex-basis: calc((100%-3*24px)/4);
 /*-----MAIN-THIRD------------*/
 .main-third{
     background-color: #FFF;
+    
 }
 .main-third-title{
         color:  #2E2F42;
@@ -218,10 +213,11 @@ flex-basis: calc((100%-3*24px)/4);
         text-transform: capitalize;
         margin-bottom: 72px;
 }
-.list{
+.main-third-img{
     display: flex;
     gap: 24px;
     margin-bottom: 120px;
+    
 }
 .main-third-computer{
     border: 1px solid var(--cornflower, #E7E9FC);
