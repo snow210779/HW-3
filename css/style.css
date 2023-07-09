@@ -290,22 +290,23 @@ background-color: #F4F4FD;
 /*-----PORTFOLIO HEADER------------*/
 .head{
     border-bottom: 1px solid  #E7E9FC;
-    padding: 24px 0;
+    
 }
 .head-container {
     display: flex;
     justify-content: space-between;
+
     
 }
 
 .header-nav {
     display: flex;
-    align-items: center;
+   
 }
 
 .header-menu {
     display: flex;
-    gap: 40px;
+    
 }
 .nav-logo{
     font-family: Raleway, sans-serif;
@@ -317,6 +318,7 @@ background-color: #F4F4FD;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    gap: 40px;
 }
 
 .nav-logo-accent{
@@ -342,7 +344,7 @@ background-color: #F4F4FD;
 }
 
 
-.socials-contacts-item{
+.socials-contacts{
     gap: 40px;
 }
 .socials-contacts-link{
