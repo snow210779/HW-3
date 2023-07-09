@@ -68,7 +68,7 @@ ul,ol{
     justify-content: space-between;
     display: flex;
 }
-.header-list{
+.header-list-item{
     display: flex;
     align-items: center;
     gap: 40px;
@@ -99,7 +99,7 @@ padding: 24px 0;
 font-style: normal;
 
 }
-.header-contacs {
+.header-contacs-item {
     display: flex;
     align-items: center;
     gap: 40px;
