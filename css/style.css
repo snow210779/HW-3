@@ -232,7 +232,7 @@ flex-basis: calc((100%-3*24px)/4);
 
 .main-fourth{
 background-color: #F4F4FD;
-padding-bottom: 120px;
+padding: 120px 0;
 }
         
 
@@ -249,12 +249,12 @@ padding-bottom: 120px;
 .main-fourth-list{
      display: flex;
      gap: 24px;
-
-
+    border-radius: 0px 0px 4px 4px;
 }
 
 .fourth-img{
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+
 }
 
 .fourth-subtitle{
