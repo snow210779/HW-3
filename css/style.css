@@ -41,6 +41,8 @@ ul,ol{
 /*------HEADER-------------*/
 .header{
     border-bottom: 1px solid #E7E9FC;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -56,6 +58,16 @@ ul,ol{
 }
 .header-title-accent{
      color: #2E2F42;
+}
+.header-container{
+    display: flex;
+}
+.header-list{
+    display: flex;
+}
+.header-navigation{
+    display: flex;
+    gap: 40px;
 }
 
 .header-list-link{
