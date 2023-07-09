@@ -64,8 +64,7 @@ ul,ol{
     display: flex;
 }
 .header-list{
-    display: flex;
-    align-items: center;
+   
     gap: 40px;
 }
 .header-list-link{
@@ -88,8 +87,6 @@ padding: 24px 0;
 font-style: normal;
 }
 .header-contacs {
-    display: flex;
-    align-items: center;
     gap: 40px;
 }
 
