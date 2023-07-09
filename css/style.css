@@ -42,10 +42,8 @@ ul,ol{
 .header{
     border-bottom: 1px solid #E7E9FC;
 }
-.header-navigation{
-    display: flex;
-    align-items: center;
-}
+
+
 .header-logo {
         font-family: Raleway, sans-serif; 
         color: #4D5AE5;
@@ -54,27 +52,21 @@ ul,ol{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-right: 76px;
+        
 }
 .header-title-accent{
      color: #2E2F42;
 }
-.header-container{
-    justify-content: space-between;
-    display: flex;
-}
-.header-list{
-    gap: 40px;
-}
+
 .header-list-link{
 color:  #2E2F42;
-display: block;
+
 font-size: 16px;
 font-family: Roboto;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-padding: 24px 0;
+
 }
 .header-list-link:hover{
     color: #404bbf
@@ -194,7 +186,6 @@ flex-basis: calc((100%-3*24px)/4);
 /*-----MAIN-THIRD------------*/
 .main-third{
     background-color: #FFF;
-   
 }
 .main-third-title{
         color:  #2E2F42;
@@ -215,12 +206,10 @@ flex-basis: calc((100%-3*24px)/4);
     border: 1px solid var(--cornflower, #E7E9FC);
     background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
 }
-
 .main-third-computer-smartphone{
     border: 1px solid var(--cornflower, #E7E9FC);
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
-
 /*-----MAIN-FOURTH------------*/
 
 .main-fourth{
