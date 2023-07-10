@@ -76,6 +76,7 @@ img{
 
 
 .header-list-link{
+    display: inline-block;
 color:  #2E2F42;
 font-size: 16px;
 font-family: Roboto;
@@ -96,10 +97,9 @@ font-style: normal;
 }
 
 .header-contacs{
-    display: flex;
-    gap: 40px;
+display: flex;
+gap: 40px;
 }
-
 .header-contacs-link{
 color:  var(---accent-color);
 font-style: normal;
@@ -189,7 +189,7 @@ flex-basis: calc((100%-3*24px)/4);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.link{
+.main-second-list{
     display: flex;
     gap: 24px;
 }
@@ -321,20 +321,14 @@ padding: 120px 0;
 .head-container {
     display: flex;
     justify-content: space-between;
-
-    
 }
-
 .header-nav {
     display: flex;
     align-items: center;
-   
 }
-
 .header-menu {
     display: flex;
     gap: 40px;
-    
 }
 .nav-logo{
     font-family: Raleway, sans-serif;
@@ -347,21 +341,19 @@ padding: 120px 0;
     text-transform: uppercase;
     margin-right: 76px;
 }
-
 .nav-logo-accent{
     color:  #2E2F42;
 }
-
 .nav-logo-title{
-
+    display: inline-block;
     color:  #2E2F42;
-        font-size: 16px;
-        font-family:  Roboto, sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        padding: 24px 0;
+    font-size: 16px;
+    font-family:  Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .nav-logo-title:hover{
@@ -453,7 +445,7 @@ padding-bottom: 120px;
     column-gap: 24px;
     row-gap: 48px;
 }
-.img-list-link{
+.img-list-item{
 width: calc((100% - 48px)/3);
 }
 .img-name-category{
