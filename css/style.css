@@ -96,6 +96,7 @@ font-style: normal;
 }
 
 .header-contacs{
+    display: flex;
     gap: 40px;
 }
 
